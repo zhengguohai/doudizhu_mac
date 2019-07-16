@@ -16,7 +16,7 @@ cc.Class({
     },
 
     buttonClick(event, customData) {
-        console.log('custom data= ', + customData);
+        console.log('custom data= 疯狂点击按钮', + customData);
         switch (customData) {
             case 'wxlogin':
                 global.socket.login(
